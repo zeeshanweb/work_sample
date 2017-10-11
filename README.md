@@ -6,3 +6,7 @@ Built a wordpress admin page where site owner is required to enter license key f
  <span>WordPress license theme page</span>
  
 ![alt text](https://github.com/zeeshanweb/work_sample/blob/master/image1.png?raw=true)
+
+<span>Successful registration page</span>
+
+![alt text](https://github.com/zeeshanweb/work_sample/blob/master/image3.png)
