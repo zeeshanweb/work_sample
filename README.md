@@ -3,5 +3,6 @@ Built a wordpress admin page where site owner is required to enter license key f
 
 <h2>Getting Started</h2>
 
- WordPress license theme page
+ <span>WordPress license theme page</span>
+ 
 ![alt text](https://github.com/zeeshanweb/work_sample/blob/master/image1.png?raw=true)
