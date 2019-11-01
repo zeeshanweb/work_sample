@@ -1,11 +1,11 @@
 <?php
 /* 
 Plugin Name: Ydo Migration
-Plugin URI: https://yourdesignonline.com/
+Plugin URI: https://xyz.com/
 Description: This WordPress Plugin is an easy way to push PROD site to staging and vice versa.
 Version: 1.0.0
 Author: YDO
-Author URI: https://yourdesignonline.com/
+Author URI: https://xyz.com/
 */
 // Plugin Folder Path
 if( ! defined( 'ABSPATH' ) )
