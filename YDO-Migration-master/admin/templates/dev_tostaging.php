@@ -217,7 +217,7 @@
 
 					<!--<div>
 
-						<input type="checkbox" name="consent" onchange="document.getElementById('migratesubmit').disabled = !this.checked;" value="1"/>I agree to WP Engine's <a href="https://yourdesignonline.com/" target="_blank" rel="noopener noreferrer">Terms of Service</a>
+						<input type="checkbox" name="consent" onchange="document.getElementById('migratesubmit').disabled = !this.checked;" value="1"/>I agree to WP Engine's <a href="https://xyz.com/" target="_blank" rel="noopener noreferrer">Terms of Service</a>
 
 					</div>--><br />
 
