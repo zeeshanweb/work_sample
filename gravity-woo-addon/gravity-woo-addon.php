@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Gravity Woo Addon
-Plugin URI:  https://yourdesignonline.com/
+Plugin URI:  https://xyz.com/
 Description: Creates an woocommerce product using gravity form.
 Version:     1.0.0
 Author:      YDO
-Author URI:  https://yourdesignonline.com/
+Author URI:  https://xyz.com/
 */
 if ( ! defined( 'ABSPATH' ) ) 
 {
