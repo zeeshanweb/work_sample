@@ -3,7 +3,7 @@
 Plugin Name: View Subcategory
 Version: 3.1.8.4
 Author: YDO
-Author URI: https://yourdesignonline.com/
+Author URI: https://xyz.com/
 */
 if ( ! defined( 'ABSPATH' ) ) 
 {
