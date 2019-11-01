@@ -38,7 +38,7 @@ if ( !class_exists('BoxWpList') )
 		}
 		public function get_box_array_field()
 		{
-			$acf_key = array( 'boxes'=>$_POST['acf']['field_5dbaa8661fb96'] , 'length'=>$_POST['acf']['field_5dbaa8701fb97'] , 'width'=>$_POST['acf']['field_5dbaa87f1fb98'] , 'height'=>$_POST['acf']['field_5dbaa8881fb99']);
+			$acf_key = array( 'boxes'=> stripslashes_deep($_POST['acf']['field_5dbaa8661fb96']) , 'length'=> stripslashes_deep($_POST['acf']['field_5dbaa8701fb97']) , 'width'=> stripslashes_deep($_POST['acf']['field_5dbaa87f1fb98']) , 'height'=> stripslashes_deep($_POST['acf']['field_5dbaa8881fb99']));
 			return $acf_key;
 		}
 		public function box_set_screen( $status, $option, $value )

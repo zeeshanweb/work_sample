@@ -28,7 +28,7 @@ if ( !class_exists('GravityWooChaining') )
 				return;
 			}
 			$item_code = $this->wpdb->get_results( "SELECT * FROM {$this->wpdb->prefix}woo_pricing where status = 'ON'" );
-			$item_code = json_encode($item_code);
+			$item_code = wp_slash(json_encode($item_code));
 			$tooth_style = '';
 			$width = '';
 			$thickness = '';

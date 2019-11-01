@@ -127,7 +127,7 @@ class EditDimenison {
 	}
 	public function get_array_field()
 	{
-		$acf_key = array( 'tooth_count'=>$_POST['acf']['field_5db7e60d05f68'] , 'description'=>$_POST['acf']['field_5db7eb5a830a5'] , 'item_code'=>$_POST['acf']['field_5db7eb67830a6'] , 'width'=>$_POST['acf']['field_5db7ec0f830a7'] , 'thickness'=>$_POST['acf']['field_5db7ec15830a8'] , 'tooth_spacing'=>$_POST['acf']['field_5db7ec1e830a9'] , 'sales_price_ft'=>$_POST['acf']['field_5db7ec5c830aa'], 'sales_price_weld'=>$_POST['acf']['field_5db7ec68830ab'], 'packaging'=>$_POST['acf']['field_5db7ec74830ac'] , 'selected_box'=>$_POST['acf']['field_5dbab389c981f'], 'status'=>$_POST['acf']['field_5db7e5d405f67'] );
+		$acf_key = array( 'tooth_count'=> stripslashes_deep($_POST['acf']['field_5db7e60d05f68']) , 'description'=> stripslashes_deep($_POST['acf']['field_5db7eb5a830a5']) , 'item_code'=> stripslashes_deep($_POST['acf']['field_5db7eb67830a6']) , 'width'=> stripslashes_deep($_POST['acf']['field_5db7ec0f830a7']) , 'thickness'=> stripslashes_deep($_POST['acf']['field_5db7ec15830a8']) , 'tooth_spacing'=> stripslashes_deep($_POST['acf']['field_5db7ec1e830a9']) , 'sales_price_ft'=> stripslashes_deep($_POST['acf']['field_5db7ec5c830aa']), 'sales_price_weld'=> stripslashes_deep($_POST['acf']['field_5db7ec68830ab']), 'packaging'=> stripslashes_deep($_POST['acf']['field_5db7ec74830ac']) , 'selected_box'=> stripslashes_deep($_POST['acf']['field_5dbab389c981f']), 'status'=> stripslashes_deep($_POST['acf']['field_5db7e5d405f67']) );
 		return $acf_key;
 	}
 	public function redirect_to_dimension_lidting()
