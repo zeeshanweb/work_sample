@@ -2,7 +2,7 @@
 /*
 Plugin Name: Gravity Woo Addon
 Plugin URI:  https://xyz.com/
-Description: Creates an woocommerce product using gravity form.
+Description: Calculates woocommerce product dimension based user input value and dynamically calculate product price and also calculates taxes
 Version:     1.0.0
 Author:      YDO
 Author URI:  https://xyz.com/
