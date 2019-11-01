@@ -11,7 +11,7 @@ private $type;
 
 private $text_domain;
 
-private $api_domain = 'https://yourdesignonline.com';
+private $api_domain = 'https://xyz.com';
 
 private $license_status_option = 'if_license_key_is_correct'; 
 
