@@ -14,12 +14,12 @@ if ( ! defined( 'ABSPATH' ) )
 define( 'KEN_PATH', plugin_basename( __FILE__ ) );
 define( 'KEN_URL', plugins_url( '', __FILE__ ) );
 //include functions
-include(plugin_dir_path(__FILE__) . 'inc/gravity_woo_function.php');
+include_once(plugin_dir_path(__FILE__) . 'inc/gravity_woo_function.php');
 //include(plugin_dir_path(__FILE__) . 'inc/gravity_chain_function.php');
-include(plugin_dir_path(__FILE__) . 'inc/gravity_woo_extended_function.php');
-include(plugin_dir_path(__FILE__) . 'inc/dimension_listing.php');
-include(plugin_dir_path(__FILE__) . 'inc/edit_dimension_action.php');
-include(plugin_dir_path(__FILE__) . 'inc/ken_custom_chaining.php');
-include(plugin_dir_path(__FILE__) . 'inc/discount_setting.php');
-include(plugin_dir_path(__FILE__) . 'inc/box_list_class.php');
-include(plugin_dir_path(__FILE__) . 'inc/box_wp_list.php');
+include_once(plugin_dir_path(__FILE__) . 'inc/gravity_woo_extended_function.php');
+include_once(plugin_dir_path(__FILE__) . 'inc/dimension_listing.php');
+include_once(plugin_dir_path(__FILE__) . 'inc/edit_dimension_action.php');
+include_once(plugin_dir_path(__FILE__) . 'inc/ken_custom_chaining.php');
+include_once(plugin_dir_path(__FILE__) . 'inc/discount_setting.php');
+include_once(plugin_dir_path(__FILE__) . 'inc/box_list_class.php');
+include_once(plugin_dir_path(__FILE__) . 'inc/box_wp_list.php');
