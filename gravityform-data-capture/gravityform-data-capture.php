@@ -1,11 +1,11 @@
 <?php
 /* 
 Plugin Name: Gravityform Data Capture
-Plugin URI: http://yourdesignonline.com/
-Description: This WordPress Plugin is to capture gravity form data.
+Plugin URI: http://xyz.com/
+Description: This WordPress Plugin is to capture gravity form data and save in different db.
 Version: 1.0.0
 Author: YDO
-Author URI: http://yourdesignonline.com/
+Author URI: http://xyz.com/
 */
 if ( ! defined( 'ABSPATH' ) ) {
 
