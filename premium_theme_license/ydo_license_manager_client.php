@@ -45,7 +45,7 @@ public function __construct(  ) {
 				wp_schedule_event( time(), 'daily', 'ydo_once_in_a_day_action_hook' );
 			}
 			add_action('ydo_once_in_a_day_action_hook', array( $this, 'ydo_cron_job_for_status_update'));
-			add_action( 'init', array( $this, 'ydo_add_role_to_users'));
+			//add_action( 'init', array( $this, 'ydo_add_role_to_users'));
     }
 		/**
  * Creates the settings items for entering license information (email + license key).
