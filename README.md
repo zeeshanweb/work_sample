@@ -1,0 +1,1 @@
+# wp-mail error reporting
