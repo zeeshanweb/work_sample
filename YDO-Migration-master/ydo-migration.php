@@ -21,11 +21,11 @@ if( !defined( 'YDO_PLUGIN_FILE' ) ) {
 }
 define( 'GIT_USER_NAME' , 'ydodev' );
 define( 'GIT_REPO' , 'YDO-Migration' );
-define( 'GIT_TOKEN' , '4995acfa36534c974bb294be04592ed8ba9af42d' );
+define( 'GIT_TOKEN' , 'dfgd' );
 define( 'YDO_PLUGIN_URL' , plugin_dir_url( __FILE__ ) );
-define( 'MIGRATE_DB_NAME', 'migrate_db' );
-define( 'MIGRATE_DB_USER', 'migrate' );
-define( 'MIGRATE_DB_PASS', 'dN98&^g$#' );
+define( 'MIGRATE_DB_NAME', 'dfg' );
+define( 'MIGRATE_DB_USER', 'dfg' );
+define( 'MIGRATE_DB_PASS', 'gfdfgdf' );
 require_once YDO_PLUGIN_DIR . "classes/xmlapi.php";
 require_once YDO_PLUGIN_DIR . "classes/display-error.php";
 require_once YDO_PLUGIN_DIR . "classes/ydo_migration_base_class.php";
