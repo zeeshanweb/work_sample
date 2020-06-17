@@ -9,4 +9,4 @@ Built a wordpress admin page where site owner is required to enter license key f
 
 <span>Successful registration page</span>
 
-![alt text](https://github.com/zeeshanweb/work_sample/blob/master/image3.png)
+![alt text](https://github.com/zeeshanweb/work_sample/blob/master/image4.png)
